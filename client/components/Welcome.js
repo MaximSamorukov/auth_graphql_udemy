@@ -4,13 +4,13 @@ import Login from "../mutations/Login";
 import { graphql } from 'react-apollo';
 import CurrentUser from "../queries/CurrentUser";
 
-const Dashboard = () => {
+const Welcome = () => {
 
     return (
       <div>
-        <h3>You are logged in.</h3>
+        <h3>Welcome!</h3>
       </div>
     )
   }
 
-export default Dashboard;
+export default Welcome;

@@ -34,7 +34,7 @@ class Header extends Component {
     return (
       <div>
         <li>
-          <Link to="/signup">Signup</Link>
+          <Link to="/signup">Sign Up</Link>
         </li>
         <li>
           <Link to="/login">Login</Link>
@@ -45,7 +45,6 @@ class Header extends Component {
 
   render() {
     const { currentUser, loading } = this.props.data;
-    console.log(currentUser, loading );
 
     return (
       <nav>
